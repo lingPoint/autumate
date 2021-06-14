@@ -1,17 +1,9 @@
 #!/usr/bin/env python
-# coding: utf-8
-
-
-
-
 # coding=utf-8
 import re
 import requests
 import json
 import sys
-
-
-
 
 def main():
     url = "http://dxx.scyol.com/api/student/commit"
@@ -31,9 +23,6 @@ def main():
     r = requests.post(url,headers=agent,data=json.dumps(data))
     r.encoding='utf-8'
     print(r.text)
-
-
-
 
 
 main()
