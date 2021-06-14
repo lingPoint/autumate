@@ -1,9 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # 获取数据 6、10
 
-# In[14]:
 
 
 # coding=utf-8
@@ -13,7 +11,6 @@ import json
 import sys
 
 
-# In[15]:
 
 
 def main():
@@ -36,11 +33,10 @@ def main():
     print(r.text)
 
 
-# In[16]:
+
 
 
 main()
 
 
-# In[ ]:
 
